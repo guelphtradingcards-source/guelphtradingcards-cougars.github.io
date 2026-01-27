@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'Eurostile Custom'; /* A name you choose for the font in your CSS */
+    src: url('fonts/eurostile-bold.woff2') format('woff2'),
+         url('fonts/eurostile-bold.woff') format('woff'),
+         url('fonts/eurostile-bold.ttf') format('truetype');
+    font-weight: bold; /* Specifies that this declaration is for the bold weight */
+    font-style: normal;
+}
+
+
+
+.id mysidebar {
+  background-color: #112842;
+  font-family: 'Eurostile Custom';
+  
+}
