@@ -10,7 +10,7 @@
 
 
 .id mysidebar {
-  background-color: #112842;
-  font-family: 'Eurostile Custom';
+  background-color: #112842 !important;
+  font-family: 'Eurostile Custom' !important;
   
 }
