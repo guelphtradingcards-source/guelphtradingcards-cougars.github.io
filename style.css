@@ -7,10 +7,24 @@
     font-style: normal;
 }
 
-
-
-#mySidebar {
+/***MAIN HOMEPAGE NAV***/
+.sidebar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
   background-color: #112842 !important;
   font-family: 'Eurostile Custom' !important;
-  
+  display: flex;
+  justify-content: center;
+}
+
+.sidebar ul li a {
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.sidebar ul li a:hover {
+  background-color: #111111;
 }
