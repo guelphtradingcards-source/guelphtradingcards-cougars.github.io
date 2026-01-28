@@ -1,44 +1,134 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Modern Flexbox Layout</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+/* 1. RESET */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 
-    <nav class="upper-nav">
-        <div class="brand-logo">MY BRAND</div>
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    color: #333;
+}
 
-        <div class="nav-icons">
-            <a href="#" class="icon-link">Logo 1</a>
-            <a href="#" class="icon-link">Logo 2</a>
-            <a href="#" class="icon-link">Logo 3</a>
-            <a href="#" class="icon-link">Logo 4</a>
-        </div>
-    </nav>
+/* 2. UPPER NAV */
+.upper-nav {
+    background-color: #1a1a1a;
+    color: white;
+    height: 60px; /* Fixed height for consistency */
+    display: flex;
+    justify-content: space-between; /* Pushes Logo left, Icons right */
+    align-items: center; /* Vertically centers items */
+    padding: 0 40px;
+}
 
-    <section class="hero">
-        <h1>THE FUTURE IS HERE</h1>
-        <h3>Innovative solutions for modern problems</h3>
-        <button>Learn More</button>
-    </section>
+.brand-logo {
+    font-weight: bold;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+}
 
-    <nav class="main-nav">
-        <ul>
-            <li><a href="#">World</a></li>
-            <li><a href="#">Politics</a></li>
-            <li><a href="#">Tech</a></li>
-            <li><a href="#">Science</a></li>
-            <li><a href="#">Health</a></li>
-            <li><a href="#">Style</a></li>
-            <li><a href="#">Travel</a></li>
-            <li><a href="#">Food</a></li>
-            <li><a href="#">Video</a></li>
-        </ul>
-    </nav>
+.nav-icons {
+    display: flex;
+    gap: 20px; /* Space between the right-side logos */
+}
 
-</body>
-</html>
+.icon-link {
+    color: #aaa;
+    text-decoration: none;
+    font-size: 0.8rem;
+    border: 1px solid #555;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: 0.3s;
+}
+
+.icon-link:hover {
+    background-color: #333;
+    color: white;
+}
+
+/* 3. HERO SECTION */
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    height: 500px;
+    /* Placeholder background image */
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1200&q=80');
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.hero h3 {
+    font-size: 1.5rem;
+    font-weight: 300; /* Lighter weight for sub-heading */
+    margin-bottom: 30px;
+    color: #ddd;
+}
+
+.hero button {
+    padding: 12px 30px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.hero button:hover {
+    background-color: white;
+    color: black;
+}
+
+/* 4. MAIN NAV (Slim) */
+.main-nav {
+    background-color: #ffffff;
+    border-bottom: 1px solid #e0e0e0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.main-nav ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* Allows wrapping on very small screens */
+    list-style: none;
+    padding: 10px 0; /* Slim padding */
+}
+
+.main-nav li {
+    margin: 0 5px;
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: #333;
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    
+    /* Box Styling for Hover Effect */
+    padding: 8px 15px;
+    border: 1px solid transparent; /* Invisible border prevents jumping */
+    transition: all 0.3s ease;
+}
+
+/* The Rectangle Hover Effect */
+.main-nav a:hover {
+    border-color: #333; /* The rectangle appears here */
+    background-color: #f9f9f9;
+}
 
