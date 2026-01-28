@@ -37,14 +37,15 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  position: abosolute;
   }
  
 .herotext {
   height: 400px;
   position: relative;
-  margin: 20px;
   text-align: center;
   color: white;
+  z-index: 1;
   }
 .herotext button {
   margin: 15px;
