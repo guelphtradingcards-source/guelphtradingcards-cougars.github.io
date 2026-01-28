@@ -26,15 +26,14 @@
 
 <!------------ HOME PAGE HERO IMAGE ------->
 .homehero {
- position: relative;
- height: 60vh;
- width: 100vh;
- background-image: url("https://guelphtradingcards-source.github.io/guelphtradingcards-cougars.github.io/images/homehero.png");
- background-color: #112842;
- background-position: center;
- background-repeat: no-repeat;
- background-size: cover;
- }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh; /* Or 100vh for full screen */
+  background-image: url('https://guelphtradingcards-source.github.io/guelphtradingcards-cougars.github.io/images/homehero.png');
+  background-size: cover;
+  background-position: center;
+}
  
 .herotext {
   position: relative;
