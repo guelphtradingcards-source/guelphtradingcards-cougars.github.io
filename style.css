@@ -2,8 +2,7 @@
 
 <!------------MAIN MENU------->
 .menu {
-  position: fixed;
-  top: 2;
+  position: relative;
   width: 100%;
 }
 .menu ul {
@@ -25,9 +24,8 @@
 }
 <!------------UPPER MENU------->
 .uppermenu {
-  position: fixed;
-  top: 0;
-  width: 100%;
+ position: relative;
+ width: 100%;
 }
 
 .uppermenu ul {
