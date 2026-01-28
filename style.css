@@ -1,28 +1,6 @@
-<!------------MAIN HOMEPAGE------->
+<!------------ MAIN HOMEPAGE ------->
 
-<!------------MAIN MENU------->
-.menu {
-  background-color: #112842 !important;
-  position: relative;
-  width: 100%;
-}
-.menu ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-}
-.menu ul li a {
-  display: block;
-  color: white;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-.menu ul li a:hover {
-  background-color: #111111;
-}
-<!------------UPPER MENU------->
+<!------------ UPPER MENU ------->
 .uppermenu {
  position: relative;
  width: 100%;
@@ -45,21 +23,52 @@
 .uppermenu ul li a:hover {
   background-color: #111111;
 }
-<!------------HOME PAGE HERO IMAGE------->
+
+<!------------ HOME PAGE HERO IMAGE ------->
 .homeherosection {
   height: 700px !important;
-  width: 100% !important;
 }
 .homeherocontents {
-    background-image: url("images/homehero.png");
+    background-image: url("main/images/homehero.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
+.homeherocontents button {
+  margin: 15px;
+  padding: 10px;
+  color: #112842;
+  background-color: white;
+  corner-radius: 5px;
+}
 .herotext {
   text-align: center;
-  position: absolute;
   color: white;
 }
+
+
+<!------------ MAIN MENU ------->
+.menu {
+  background-color: #112842 !important;
+  position: relative;
+  width: 100%;
+}
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+.menu ul li a {
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.menu ul li a:hover {
+  background-color: #111111;
+}
+
 
 
