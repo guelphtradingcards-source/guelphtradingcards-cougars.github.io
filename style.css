@@ -30,7 +30,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 50vh; /* Or 100vh for full screen */
+  height: 60vh;
+  width: 100vh;
   background-image: url('https://guelphtradingcards-source.github.io/guelphtradingcards-cougars.github.io/images/homehero.png');
   background-size: cover;
   background-position: center;
