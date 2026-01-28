@@ -41,9 +41,11 @@
   color: #112842;
   background-color: white;
   border: 3px;
+  border-color: black;
   border-radius: 5px;
 }
 .herotext {
+  position: relative;
   margin: 20px;
   text-align: center;
   color: white;
@@ -61,7 +63,9 @@
   margin: 0;
   padding: 0;
   display: flex;
-  justify-content: center;
+  justify-content: left;
+  background-color: #112842 !important;
+
 }
 .menu ul li a {
   display: block;
