@@ -29,7 +29,7 @@ body {
     /* Visual Styling */
     height: 400px;
     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://guelphtradingcards-source.github.io/guelphtradingcards-cougars.github.io/images/homehero.png');
-    background-size: fit;
+    background-size: cover;
     background-position: center;
     color: white;
     text-align: center;
@@ -58,11 +58,14 @@ body {
 /* 4. MAIN NAV (Underneath Hero) */
 .main-nav {
     background-color: #112842;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0px;
 }
 
 .main-nav ul {
     display: flex;          /* Flexbox for the list */
-    justify-content: center; /* Centers the menu items */
+    justify-content: left; /* Centers the menu items */
     list-style: none;
 }
 
@@ -72,13 +75,15 @@ body {
 
 .main-nav a {
     text-decoration: none;
-    color: #333;
+    padding: 5px;
+    color: white;
     font-weight: bold;
     font-size: 1.1rem;
     text-transform: uppercase;
 }
 
 .main-nav a:hover {
-    color: #e63946;
+    color: black;
+    background-color: white;
 }
 
