@@ -16,14 +16,14 @@ body {
 
 /* 2. UPPER NAV (Top Bar) */
 .upper-nav {
+    display: flex;        /* Enables Flexbox */
     background-color: #bb9f68;
     color: white;
-    display: flex;        /* Enables Flexbox */
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
-.uppernavlogo {
+.uppernavlogo  a {
         justify-content: flex-start !important;
         height: 150px;
 }
@@ -32,6 +32,7 @@ body {
     display: block;
     color: white;
     text-decoration: none;
+    justify-content: flex-end;
     margin-left: 20px;
     font-size: 0.9rem;
 }
@@ -51,6 +52,14 @@ body {
     font-family: "Eurostile", Montserrat;
     color: white;
 }
+.herocontents {
+    margin-left: 20px;
+    height: 200px;
+    display: flex;
+    flex-direction: column; /* Stacks Heading above Button */
+    justify-content: left; /* Centers vertically */
+    align-items: left;     /* Centers horizontally */
+}
 .hero h1 {
     font-size: 3rem;
     margin-bottom: 20px;
@@ -59,7 +68,6 @@ body {
 .hero h3 {
     font-size: 2rem;
     margin-bottom: 20px;
-    font-weight: bold;
 }
 
 .hero button {
