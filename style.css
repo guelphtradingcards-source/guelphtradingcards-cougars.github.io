@@ -3,6 +3,14 @@ body {
     color: #333;
 }
 
+@font-face {
+  font-family: "Eurostile";
+  src: url("fonts/EurostileLTStd.eot"); /* For IE */
+  src: url("fonts/EurostileLTStd.woff") format("woff"), /* Modern browsers */
+       url("fonts/EurostileLTStd.ttf") format("truetype"), /* Safari, Android, iOS */
+       url("fonts/EurostileLTStd.otf") format("opentype"); /* Older Safaris, etc. */
+}
+
 /* 2. UPPER NAV (Top Bar) */
 .upper-nav {
     background-color: #bb9f68;
@@ -23,21 +31,23 @@ body {
 .hero {
     display: flex;
     flex-direction: column; /* Stacks Heading above Button */
-    justify-content: center; /* Centers vertically */
-    align-items: center;     /* Centers horizontally */
+    justify-content: left; /* Centers vertically */
+    align-items: left;     /* Centers horizontally */
     
     /* Visual Styling */
     height: 400px;
     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://guelphtradingcards-source.github.io/guelphtradingcards-cougars.github.io/images/homehero.png');
     background-size: cover;
     background-position: center;
+    font-family: "Eurostile";
     color: white;
-    text-align: center;
+    text-align: left;
 }
 
 .hero h1 {
     font-size: 3rem;
     margin-bottom: 20px;
+    font-weight: bold;
 }
 
 .hero button {
