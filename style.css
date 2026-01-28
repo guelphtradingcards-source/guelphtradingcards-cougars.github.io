@@ -34,7 +34,6 @@
  background-position: center;
  background-repeat: no-repeat;
  background-size: cover;
- position: abosolute;
  }
  
 .herotext {
@@ -50,6 +49,7 @@
   border: 3px;
   border-color: black;
   border-radius: 5px;
+  position: relative;
   }
 
 <!------------ MAIN MENU ------->
