@@ -50,12 +50,11 @@
 <!------------HOME PAGE HERO IMAGE------->
 .homehero {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/homehero.png");
-  height: 50%;
+  height: 700px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: fixed;
-  top: 2;
   width: 100%;
 }
 .hero-text {
