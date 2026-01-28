@@ -2,6 +2,7 @@
 
 <!------------ UPPER MENU ------->
 .uppermenu {
+ display: flex;
  position: relative;
  width: 100%;
 }
@@ -60,6 +61,7 @@
 
 <!------------ MAIN MENU ------->
 .menu {
+  display: flex;
   background-color: #112842 !important;
   padding-top: 10px;
   padding-bottom: 10px;
