@@ -25,20 +25,27 @@
 }
 
 <!------------ HOME PAGE HERO IMAGE ------->
-
 .homehero {
-   height: 800px;
-}
+ position: relative;
+ height: 100vh;
+ background-color: #112842;
+ }
+ 
+.homehero img {
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+ 
 .herotext {
+  height: 400px;
   position: relative;
   margin: 20px;
   text-align: center;
   color: white;
-  background-image: url("https://github.com/guelphtradingcards-source/guelphtradingcards-cougars.github.io/blob/a518440f13b1929c8f936251daa095c842edcc02/images/homehero.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+  }
 .herotext button {
   margin: 15px;
   padding: 10px;
@@ -47,8 +54,7 @@
   border: 3px;
   border-color: black;
   border-radius: 5px;
- position: relative;
-}
+  }
 
 <!------------ MAIN MENU ------->
 .menu {
