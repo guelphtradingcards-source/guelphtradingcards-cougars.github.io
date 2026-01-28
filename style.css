@@ -15,7 +15,6 @@ body {
     background-color: #bb9f68;
     color: white;
     display: flex;        /* Enables Flexbox */
-    justify-content: flex-end; /* Pushes items to the right */
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -46,16 +45,21 @@ body {
     background-position: center;
     font-family: "Eurostile", Montserrat;
     color: white;
-    text-align: left;
 }
 .herocontents {
     display: flex;
     margin-left: 10vh;
-    margin-top: 50vh;
 }
 
 .hero h1 {
+    flex: 1;
     font-size: 3rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.hero h3 {
+    flex: 1;
+    font-size: 2rem;
     margin-bottom: 20px;
     font-weight: bold;
 }
