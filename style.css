@@ -17,7 +17,13 @@ body {
     color: white;
     display: flex;        /* Enables Flexbox */
     justify-content: flex-end; /* Pushes items to the right */
-    padding: 10px 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.uppernavlogo {
+        justify-content: flex-start !important;
+        height: 50px;
 }
 
 .upper-nav a {
