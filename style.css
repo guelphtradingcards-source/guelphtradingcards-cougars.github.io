@@ -47,13 +47,14 @@
 }
 <!------------HOME PAGE HERO IMAGE------->
 .homehero {
-  background-image: url("https://github.com/guelphtradingcards-source/guelphtradingcards-cougars.github.io/blob/ffccd84e823e46e4d735e5363a39f705f0b5f684/images/homehero.png");
-  height: 700px; 
+  background-image: url("./images/homehero.png");
+  height: 700px !important;
+  min-height: 700px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  width: 100%;
+  width: 100% !important;
 }
 .hero-text {
   text-align: center;
