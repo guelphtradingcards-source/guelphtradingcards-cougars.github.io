@@ -23,12 +23,13 @@ body {
     padding-bottom: 20px;
 }
 
-.upper-nav a .uppernavlogo {
+.uppernavlogo {
         justify-content: flex-start !important;
-        height: 50px;
+        height: 150px;
 }
 
 .upper-nav a {
+    display: block;
     color: white;
     text-decoration: none;
     margin-left: 20px;
@@ -63,7 +64,7 @@ body {
 
 .hero button {
     padding: 10px 25px;
-    width: 50px;
+    width: 100%;
     font-size: 1.2rem;
     background-color: white;
     color: black;
