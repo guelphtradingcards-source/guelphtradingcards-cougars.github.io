@@ -1,12 +1,3 @@
-@font-face {
-    font-family: 'Eurostile Custom'; /* A name you choose for the font in your CSS */
-    src: url('fonts/eurostile-bold.woff2') format('woff2'),
-         url('fonts/eurostile-bold.woff') format('woff'),
-         url('fonts/eurostile-bold.ttf') format('truetype');
-    font-weight: bold; /* Specifies that this declaration is for the bold weight */
-    font-style: normal;
-}
-
 <!------------MAIN HOMEPAGE------->
 
 <!------------MAIN MENU------->
@@ -15,7 +6,6 @@
   margin: 0;
   padding: 0;
   background-color: #112842 !important;
-  font-family: 'Eurostile Custom' !important;
   display: flex;
   justify-content: center;
 }
@@ -34,7 +24,6 @@
   margin: 0;
   padding: 0;
   background-color: #bb9f68 !important;
-  font-family: 'Eurostile Custom' !important;
   display: flex;
   justify-content: right;
 }
