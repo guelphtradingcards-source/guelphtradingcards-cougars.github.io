@@ -1,21 +1,20 @@
 <!------------ MAIN HOMEPAGE ------->
 .body {
    display: flex;
-   font-family: "Eurostile", "Eurostile LT", "Eurostile Next", Arial, sans-serif;
+   font-family: "Eurostile" !important;
 }
 
 <!------------ UPPER MENU ------->
 .uppermenu {
  display: flex;
  position: relative;
- width: 100%;
+ width: 100vh;
 }
 .uppermenu ul {
   list-style-type: none;
-  margin: 0;
+  margin: auto;
   padding: 0;
   background-color: #bb9f68 !important;
-  display: flex;
   justify-content: right;
 }
 .uppermenu ul li a {
@@ -40,12 +39,11 @@
 }
  .herotext {
   flex: 1;
-  width: 100vh;
-  height: 30vh;
   margin: auto;
   color: white;
   }
 .btn {
+  flex: 1;
   margin: auto;
   padding: 20px;
   font-size: 24px;
