@@ -1,3 +1,11 @@
+/* --------------- BODY --------------------- */
+.body {
+font-family: Arial, sans-serif;
+)
+
+
+
+
 /* --------------- UPPER NAV (Top Bar) --------------------- */
         .upper-nav {
             background-color: #bb9f68;
@@ -21,8 +29,8 @@
             flex-direction: column; /* Stacks Heading above Button */
             justify-content: center; /* Centers vertically */
             align-items: center;     /* Centers horizontally */
-            height: 800px;
-            background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://github.com/guelphtradingcards-source/guelphtradingcards-cougars.github.io/images/homehero.png');
+            height: 600px;
+            background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https:///guelphtradingcards-source/guelphtradingcards-cougars.github.io/images/homehero.png');
             background-size: cover;
             background-position: center;
             color: white;
